@@ -3,7 +3,7 @@ Generates varied practice tasks, each with a KNOWN correct answer where possible
 This is what lets the verifier later check the teacher model's work.
 """
 import random
-from Tools.Functions import calculator, get_weather, search, FAKE_DOCS
+from tools.functions import calculator, get_weather, search, FAKE_DOCS
 
 CITIES = ["Indore", "Delhi", "Mumbai", "Paris"]
 
