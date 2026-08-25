@@ -3,8 +3,8 @@ import os
 import json
 from dotenv import load_dotenv
 from groq import Groq
-from Tools.Schemas import TOOLS
-from Tools.executor import execute_tool_call
+from tools.schemas import TOOLS
+from tools.executor import execute_tool_call
 
 load_dotenv()
 
