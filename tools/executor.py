@@ -1,5 +1,5 @@
-from Tools.schemas import TOOL_NAMES
-from Tools.functions import TOOL_FUNCTIONS
+from tools.schemas import TOOL_NAMES
+from tools.functions import TOOL_FUNCTIONS
 
 
 def execute_tool_call(tool_name: str, arguments: dict):
