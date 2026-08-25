@@ -6,9 +6,9 @@ our known ground truth -> save only the ones that pass to a JSONL file.
 """
 import json
 import time
-from Data_gen.task_generator import generate_all_tasks
-from Data_gen.groq_caller import solve_task
-from Tools.Verifier import verify_trajectory
+from data_gen.task_generator import generate_all_tasks
+from data_gen.groq_caller import solve_task
+from tools.Verifier import verify_trajectory
 
 OUTPUT_FILE = "data/verified_trajectories.jsonl"
 
